@@ -1,10 +1,12 @@
+![](https://m.media-amazon.com/images/I/71LZ+PerMmL._SL1200_.jpg)
+
 #### Craft: Ambiguity vs. [Precision](https://www.youtube.com/watch?v=6n5SqwERoOc)?
 - We need `precise` parameters
 - But `ambiguous` inferences:
    - Statify and have qualitatively opposed conclusions
 - Subsequent interations unveil the essence of this break-through
 
-####
+#### Real Artists Ship
 - Ship; No iterations with Precision
 - Deploy; Perhaps it comes from Encoding history
 - Telecommute; Of the genre of the very best?
