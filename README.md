@@ -1,8 +1,8 @@
 ![](https://m.media-amazon.com/images/I/71LZ+PerMmL._SL1200_.jpg)
 
 #### Craft: Ambiguity vs. [Precision](https://www.youtube.com/watch?v=6n5SqwERoOc)?
-- We need `precise` parameters
-- But `ambiguous` inferences:
+- We need `precise` parameters: orchestration/instrumentation
+- But `ambiguous` inferences: how remote are those overtones you hear? Is 9th, 11th, 13th not just the dom7?
    - Statify and have qualitatively opposed conclusions
 - Subsequent interations unveil the essence of this break-through
 
@@ -10,7 +10,7 @@
 - Ship; No iterations with Precision
 - Deploy; Perhaps it comes from Encoding history
 - Telecommute; Of the genre of the very best?
-- `Fast-Iterate-Speed`; Yes, because...
+- `Fast-Iterate-Speed`; Bach's improvisations fall here
 - Progress; My Fave Womens Jam says so!
   
 > $\frac{\partial}{\partial t}\text{Costs, Relations, Advantage} \sim \ \beta_0 + \beta_1 \text{Peasant} + \beta_2 \text{Farmer} + \beta_3 \text{Manufacturer} + \beta_4 \text{Energy} + \beta_5 \text{Transportation} + \epsilon_i$
