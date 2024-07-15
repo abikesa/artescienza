@@ -1,41 +1,27 @@
-![](https://m.media-amazon.com/images/I/71LZ+PerMmL._SL1200_.jpg)
-
-#### Craft: Ambiguity vs. [Precision](https://www.youtube.com/watch?v=6n5SqwERoOc)?
-- We need `precise` parameters: orchestration/instrumentation
-- But `ambiguous` inferences: how remote are those overtones you hear? Is 9th, 11th, 13th not just the dom7?
-   - Statify and have qualitatively opposed conclusions
-- Subsequent interations unveil the essence of this break-through
-
-#### Real Artists Ship
-- Ship; No iterations with Precision
-- Deploy; Perhaps it comes from Encoding history
-- Telecommute; Of the genre of the very best?
-- `Fast-Iterate-Speed`; Bach's improvisations fall here
-- Progress; My Fave Womens Jam says so!
-  
-> $\frac{\partial}{\partial t}\text{Costs, Relations, Advantage} \sim \ \beta_0 + \beta_1 \text{Peasant} + \beta_2 \text{Farmer} + \beta_3 \text{Manufacturer} + \beta_4 \text{Energy} + \beta_5 \text{Transportation} + \epsilon_i$
-
- 
-                                       1. Costs/Experience
-                                                          \
-                                       2. Peasant/Code -> 4. Manufacturer/Inferences -> 5. Electricity/Iterations -> 6. Transportation/Feedback-Speed
-                                                          /
-                                                           3. Farmer/Parameters
+> *[Stay hungry, stay foolish](https://www.youtube.com/watch?v=UF8uR6Z6KLc)*
+> *Remain a hunter-gatherer for life!*
 
 
+                   1. Senses-Hunter.gatherer
+                                            \
+                      2. Memory-Peasant ->   4. Intelligence-Manufacturing -> 5. Capital-Energy -> 6. Deployment-Ship
+                                            /
+                                            3. Emotion-Farmer
 
- 
-### Empirical
-##### 1st, 3rd, 5th, ♭♭7, 9th
-1. Monotonic: hunter-gatherer
-2. [Pentatonic](https://en.wikipedia.org/wiki/Seven_Samurai): peasant, farmer, manufacturer-[compute](https://www.youtube.com/watch?v=i-o5YbNfmh0), [energy](https://www.youtube.com/watch?v=_Vik6UJTFyk), deployment-telecommute-[railway](https://www.youtube.com/watch?v=585IMBb14Kg)
-### Model
-##### 11th, 13th 
-3. [Diatonic/Mundane](https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly): prior/accuracy
-4. [Chromatic](https://en.wikipedia.org/wiki/No_Country_for_Old_Men): likelihood/precision
-### Competition
-##### ♭9,♯9,♯11,♭13 
-5. Temperament: fine-tune/iteration
-6. [Expression](https://www.youtube.com/watch?v=e4Vp7Fpv5BI): transparency/clarity
 
+### Biological  1, 2, 3
+- **Connecting dots**. Life isn’t deterministic. Roll the dice on what you believe in. Dots will only connect retrospectively (*San Sariff*). But your senses should guide in the midst of all chaos. `Stay hungry`
+
+### Social  4
+- **Love & loss**. I’d been rejected but was still in love. The heaviness of being successful was replaced with the freedom of being free again: Pixar, Toy Story, and met his wife. Apple later bought Next. All this came from being fired. Work takes a lot of your time. `So do great work, don’t settle.` You’ll know when you find it. Keep looking 
+
+### Personal 5, 6 
+- **Death**. If you live your days like it’s the last, some day it will come to pass. Remembering that I’ll be dead soon has helped me make the best decisions. Fear falls away and you know you have nothing to lose. `Don’t be trapped by dogma: results of other people’s thinking`. Have the courage to follow your intuition. Everything else is secondary. Stay hungry, stay foolish. 
+
+
+                       1. Hungry
+                                \
+                2. Foolish ->   4. Greatness -> 5. Dogma-Free -> 6. Intuition
+                                /
+                                3. Love
  
