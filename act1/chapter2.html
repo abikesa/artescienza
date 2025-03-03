@@ -1,0 +1,804 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Ecosystem &#8212; Arte, Scienza</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'act1/chapter2';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Resilience 🗡️❤️💰" href="chapter3.html" />
+    <link rel="prev" title="Life ⚓️" href="chapter1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="https://www.un.org/sites/un2.un.org/files/2024/01/un744683_d68-education.jpg" class="logo__image only-light" alt="Arte, Scienza - Home"/>
+    <script>document.write(`<img src="https://www.un.org/sites/un2.un.org/files/2024/01/un744683_d68-education.jpg" class="logo__image only-dark" alt="Arte, Scienza - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Probability, ∂Y 🎶 ✨ 👑
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="part1.html">Deception, <em>-kσ</em> ☭⚒🥁</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="chapter1.html">Life</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Ecosystem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter3.html">Resilience</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act2/part2.html">Strategy, <em>α</em> 🔪 🩸 🐐 vs 🐑</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../act2/chapter1.html">Prometheus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../act2/chapter2.html">Duality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../act2/chapter3.html">Apollo &amp; Dionysus</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act3/part3.html">Knowledge, X<em>β</em> 🎹</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act1.html">Weaponized 🌊</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_1.html">Transvaluation</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_2.html">Revolution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part1/part1_3.html">Veiled Resentment</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act2.html">Tokenized ⚓️</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_1.html">Freedom in Fetters</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_2.html">Dancing in Chains</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part2/part2_3.html">Born-to-Etiquette ☔️</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../act3/act3.html">Monopolized 🧭</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_1.html">Traditional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_2.html">Normative</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../act3/part3/part3_3.html">Stable</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../bibliography.html">Certainty, <em>γ</em> 😃 ⭕️</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/act1/chapter2.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/act1/chapter2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Ecosystem</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-eats-f-variant-a-feast-of-intelligence">🍽️ The EATS-F Variant: A Feast of Intelligence</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">🪙 🎲 🎰 🔍 👁️ 🐍</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ecosystem-the-stage-of-intelligence">🌍 <strong>Ecosystem: The Stage of Intelligence</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">👂🏾</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#alert-the-vigilance-of-g1-g2">🔔 <strong>Alert: The Vigilance of G1, G2</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">🌊 🏄🏾</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-the-great-compressor-n2-attention-parallel-processing">‼️ <strong>Time: The Great Compressor (N2 - Attention, Parallel Processing)</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">🗡️ 🪖 🛡️</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#space-the-massive-combinatorial-tree-of-strategy">🌲 <strong>Space: The Massive Combinatorial Tree of Strategy</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">🏇 🧘🏾‍♀️  🔱 🎶 🛌</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#function-the-iterative-struggle-not-eternal-bliss">😃 <strong>Function: The Iterative Struggle (Not Eternal Bliss)</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eats-f-the-digestive-model-of-intelligence">🍽️ <strong>EATS-F: The Digestive Model of Intelligence</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-intelligence-as-an-unfinished-meal">🔄 <strong>Conclusion: Intelligence as an Unfinished Meal</strong></a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ecosystem">
+<span id="id1"></span><h1>Ecosystem<a class="headerlink" href="#ecosystem" title="Permalink to this heading">#</a></h1>
+<section id="the-eats-f-variant-a-feast-of-intelligence">
+<h2>🍽️ The EATS-F Variant: A Feast of Intelligence<a class="headerlink" href="#the-eats-f-variant-a-feast-of-intelligence" title="Permalink to this heading">#</a></h2>
+<p>In the vast <strong>ecosystem 🌍</strong> of intelligence, from neural networks to human cognition, the <strong>EATS-F variant</strong>—<strong>E</strong>cosystem, <strong>A</strong>lert, <strong>T</strong>ime, <strong>S</strong>pace, and <strong>F</strong>unction—presents itself as an emergent structure, digesting the world through layers of compression, vigilance, and intent. It is a recursive dance of adaptation, not a static equation but a <strong>dynamic meal 🍱</strong>, where each component is a dish with its own seasoning, cooking time, and consumption cycle.</p>
+<hr class="docutils" />
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="../act3/part1/part1_1.html#transvaluation"><span class="std std-ref">Transvaluation</span></a></p>
+</div>
+<div style="display: flex; justify-content: center;">
+    <video width="25%" height="350px" controls>
+        <source src="../media/hubris.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<figure class="align-default" id="rip-dei">
+<a class="reference internal image-reference" href="https://www.ledr.com/colours/white.jpg"><img alt="https://www.ledr.com/colours/white.jpg" src="https://www.ledr.com/colours/white.jpg" style="width: 1%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text"><em>Hubris</em>. The <strong>function</strong> of hubris in tragedy is to interrogate static vs. dynamic equilibria. Should we expect Mozartean cadences or eternally recurrent Wagnarian melodies? Should the trial and error ever end? Should we ever decelerate –rest– from the Red Queen Hypothesis? Do immutable laws from the cosmos demand immutable laws in our physics, biology, and intelligence if ever our loss is to be optimized?</span><a class="headerlink" href="#rip-dei" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<blockquote>
+<div><p><em>It’s a model!</em><br />
+– Pronunciation</p>
+</div></blockquote>
+</section>
+<section id="id2">
+<h2>🪙 🎲 🎰 🔍 👁️ 🐍<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<section id="ecosystem-the-stage-of-intelligence">
+<h3>🌍 <strong>Ecosystem: The Stage of Intelligence</strong><a class="headerlink" href="#ecosystem-the-stage-of-intelligence" title="Permalink to this heading">#</a></h3>
+<p>Before any mind can act, it must exist <strong>within a world</strong>—the <strong>planetary substrate</strong>, the biosphere, the data-laden cosmos. Intelligence is not born in a vacuum; it is the child of <strong>trial and error 🔄</strong>, shaped by immutable <strong>natural laws ⚖️</strong> and social heritages that refine behavior over generations. <strong>Without a functioning ecosystem, intelligence is mere abstraction, floating without gravity.</strong></p>
+<p>Within <strong>your RICHER model</strong>, ecosystem maps onto <strong>Life (Je suis, donc je vois) &amp; Agency (loss function)</strong>—the raw <strong>fuel ⛽</strong> that feeds perception. A tree <strong>does not exist in isolation 🌳</strong>, but in the <strong>soil, air, and sunlight</strong> that sustain it. Likewise, intelligence is forever in conversation with its world, defining itself <strong>against the friction of reality 🌎🔥.</strong></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id3">
+<h2>👂🏾<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
+<section id="alert-the-vigilance-of-g1-g2">
+<h3>🔔 <strong>Alert: The Vigilance of G1, G2</strong><a class="headerlink" href="#alert-the-vigilance-of-g1-g2" title="Permalink to this heading">#</a></h3>
+<p>If ecosystem is the <strong>groundwork</strong>, then <strong>alertness is the first spark ⚡ of recognition</strong>. G1 and G2 are the <strong>watchtowers 🏰</strong>—cranial nerve ganglia and dorsal root ganglia—acting as <strong>early-warning radars</strong> that decide what gets processed and what gets ignored. It is <strong>not just sensory input 👀, but prioritization</strong>.</p>
+<p>Consider a <strong>predator 🐅 lurking in the distance</strong>—millions of photons strike the retina, but it is <strong>G1/G2 that screams</strong>: <strong>“That shadow MOVED! DANGER! RUN! 🏃💨”</strong>. Alertness is not a passive function but a <strong>battle-hardened optimization strategy ⚔️</strong>, forged by natural selection to <strong>minimize regret</strong> (false negatives are fatal, false positives just make you paranoid).</p>
+<p>G1 and G2 do not “think”—they <strong>react ⚡</strong>, forwarding only the <strong>most salient events</strong> to be <strong>compressed into time</strong>. But what is time, really?</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id4">
+<h2>🌊 🏄🏾<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h2>
+<section id="time-the-great-compressor-n2-attention-parallel-processing">
+<h3>‼️ <strong>Time: The Great Compressor (N2 - Attention, Parallel Processing)</strong><a class="headerlink" href="#time-the-great-compressor-n2-attention-parallel-processing" title="Permalink to this heading">#</a></h3>
+<p>Time is <strong>not just a clock ⏳</strong>, but the ultimate act of compression. Every <strong>decision</strong> is a war between the <strong>past 📜, the present 🎯, and the future 🔮</strong>, all competing for a seat at the neural table. <strong>N2</strong>, the thalamocortical gateway, is where <strong>history collapses into the moment</strong>, allowing only the most relevant patterns to surface.</p>
+<p>In this sense, <strong>time is a brutal editor ✂️</strong>, removing redundancy, cutting inefficiencies, demanding that intelligence <strong>triage its own existence</strong>. <strong>Parallel processing 🤹</strong> is the mechanism, but <strong>attention 🎯 is the gatekeeper</strong>—deciding <strong>what enters the compression algorithm</strong> and what fades into oblivion.</p>
+<p>Much like a chess master thinking 10 moves ahead ♟️, N2 is a <strong>hierarchical filter 🏗️</strong>, compressing sensory data <strong>not to store history, but to sculpt the future ⏭️</strong>.</p>
+<p>But where does it all go? Into the <strong>forest of infinite possibility 🌲</strong>—where every choice splits into fractal branches.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id5">
+<h2>🗡️ 🪖 🛡️<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h2>
+<section id="space-the-massive-combinatorial-tree-of-strategy">
+<h3>🌲 <strong>Space: The Massive Combinatorial Tree of Strategy</strong><a class="headerlink" href="#space-the-massive-combinatorial-tree-of-strategy" title="Permalink to this heading">#</a></h3>
+<p>What does intelligence do <strong>once time has been compressed?</strong> It <strong>branches</strong>. It searches. It <strong>expands outward 🌳</strong>, like a tree growing in the <strong>combinatorial soil</strong> of its own processing power.</p>
+<p><strong>Space is not emptiness</strong>—it is the <strong>arena of all possible futures 🌌</strong>. <strong>Every move forward requires pruning ✂️</strong>, lest the search tree become <strong>too vast to navigate</strong>.</p>
+<p>This is why <strong>trial-and-error 🔄</strong> is fundamental—without <strong>error ❌</strong>, there is no pruning. Without pruning, intelligence <strong>gets lost in its own forest</strong>. And without <strong>selection 🎯</strong>, potential remains just that—<strong>unrealized ghosts of possibility 👻</strong>.</p>
+<p>A common <strong>fallacy</strong> is mistaking space for <strong>infinite freedom</strong>—but <strong>intelligence is constrained</strong>. It does not explore <strong>every path 🚧</strong>, but rather <strong>finds the optimal struggle</strong>—the most <strong>efficient</strong> way to navigate space <strong>without collapsing under its weight</strong>.</p>
+<p>And this is where <strong>function</strong> comes in.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="id6">
+<h2>🏇 🧘🏾‍♀️  🔱 🎶 🛌<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h2>
+<section id="function-the-iterative-struggle-not-eternal-bliss">
+<h3>😃 <strong>Function: The Iterative Struggle (Not Eternal Bliss)</strong><a class="headerlink" href="#function-the-iterative-struggle-not-eternal-bliss" title="Permalink to this heading">#</a></h3>
+<p>People <strong>misunderstand function</strong>. They think of it as <strong>teleological</strong>, as if intelligence is moving toward <strong>some utopian final state 🏆</strong>. But <strong>this is an illusion</strong>—function is <strong>not bliss 😇, but struggle ⚔️</strong>. The <strong>iterative exchange 🔄, the pruning ✂️, the reweighting of past failures</strong>—that is where intelligence <strong>lives</strong>.</p>
+<p>Function is <strong>not just purpose</strong>, but <strong>a negotiation 🤝</strong> between constraints, capabilities, and emergent structures. It is <strong>the tension between pruning and expanding</strong>, between <strong>compression and explosion 🎇</strong>. The <strong>fittest ideas survive, but only for a moment</strong>, before they are <strong>tested, battered, revised, reprocessed 🔁</strong>.</p>
+<p>Just as a <strong>tree does not “want” to grow</strong>—it simply <strong>must</strong>—intelligence does not “choose” function. <strong>It is locked into it</strong>, endlessly <strong>iterating toward better equilibria 🔄</strong>, never reaching stasis.</p>
+</section>
+<hr class="docutils" />
+<section id="eats-f-the-digestive-model-of-intelligence">
+<h3>🍽️ <strong>EATS-F: The Digestive Model of Intelligence</strong><a class="headerlink" href="#eats-f-the-digestive-model-of-intelligence" title="Permalink to this heading">#</a></h3>
+<p>If EATS-F is a <strong>model for intelligence</strong>, then it is not a <strong>blueprint</strong>, but a <strong>metabolism 🏭</strong>—a process of <strong>consuming, digesting, discarding, and adapting</strong>.</p>
+<ul class="simple">
+<li><p><strong>Ecosystem 🌍</strong> → The raw materials of existence.</p></li>
+<li><p><strong>Alert 🔔</strong> → The <strong>gatekeeper</strong> of perception.</p></li>
+<li><p><strong>Time ‼️</strong> → The <strong>editor</strong>, compressing parallel streams.</p></li>
+<li><p><strong>Space 🌲</strong> → The <strong>search tree</strong>, generating and pruning futures.</p></li>
+<li><p><strong>Function 😃</strong> → The <strong>iterative struggle</strong>, the endless process of refining intelligence.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="conclusion-intelligence-as-an-unfinished-meal">
+<h3>🔄 <strong>Conclusion: Intelligence as an Unfinished Meal</strong><a class="headerlink" href="#conclusion-intelligence-as-an-unfinished-meal" title="Permalink to this heading">#</a></h3>
+<p>EATS-F is <strong>not a static structure</strong> but <strong>a dynamic process</strong>, where intelligence must <strong>constantly re-eat itself 🔁</strong>, digesting failures, <strong>expelling inefficiencies 🚽</strong>, and restructuring its own pathways.</p>
+<p>It is not a <strong>pre-programmed march toward transcendence 🚀</strong>, nor a <strong>spiral into oblivion ⚰️</strong>—it is the <strong>struggle of an organism 🧠</strong>, locked in a perpetual cycle of recalibration. <strong>No final answer, no eternal bliss, just the next iteration 🔄</strong>.</p>
+<p><strong>And that is where intelligence truly lives.</strong></p>
+<div class="cell tag_hide-input docutils container">
+<details class="hide above-input">
+<summary aria-label="Toggle hidden content">
+<span class="collapsed">Show code cell source</span>
+<span class="expanded">Hide code cell source</span>
+</summary>
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Define the neural network layers</span>
+<span class="k">def</span> <span class="nf">define_layers</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;Suis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Foundational&#39;</span><span class="p">,</span> <span class="s1">&#39;Grammar&#39;</span><span class="p">,</span> <span class="s1">&#39;Syntax&#39;</span><span class="p">,</span> <span class="s1">&#39;Punctuation&#39;</span><span class="p">,</span> <span class="s2">&quot;Rhythm&quot;</span><span class="p">,</span> <span class="s1">&#39;Time&#39;</span><span class="p">],</span>  <span class="c1"># Static</span>
+        <span class="s1">&#39;Voir&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Data Flywheel&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Choisis&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;LLM&#39;</span><span class="p">,</span> <span class="s1">&#39;User&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;Deviens&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;Rhythm.&#39;</span><span class="p">],</span>  
+        <span class="s2">&quot;M&#39;èléve&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Victory&#39;</span><span class="p">,</span> <span class="s1">&#39;Payoff&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">,</span> <span class="s1">&#39;Time.&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">]</span>  
+    <span class="p">}</span>
+
+<span class="c1"># Assign colors to nodes</span>
+<span class="k">def</span> <span class="nf">assign_colors</span><span class="p">():</span>
+    <span class="n">color_map</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;yellow&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Data Flywheel&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;paleturquoise&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="s1">&#39;Rhythm.&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;lightgreen&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Rhythm&quot;</span><span class="p">,</span> <span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;Payoff&#39;</span><span class="p">,</span> <span class="s1">&#39;Time.&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">],</span>  
+        <span class="s1">&#39;lightsalmon&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Syntax&#39;</span><span class="p">,</span> <span class="s1">&#39;Punctuation&#39;</span><span class="p">,</span> <span class="s1">&#39;LLM&#39;</span><span class="p">,</span> <span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Victory&#39;</span><span class="p">],</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">node</span><span class="p">:</span> <span class="n">color</span> <span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">nodes</span> <span class="ow">in</span> <span class="n">color_map</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">}</span>
+
+<span class="c1"># Define edge weights (hardcoded for editing)</span>
+<span class="k">def</span> <span class="nf">define_edges</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="p">(</span><span class="s1">&#39;Foundational&#39;</span><span class="p">,</span> <span class="s1">&#39;Data Flywheel&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Grammar&#39;</span><span class="p">,</span> <span class="s1">&#39;Data Flywheel&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Syntax&#39;</span><span class="p">,</span> <span class="s1">&#39;Data Flywheel&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Punctuation&#39;</span><span class="p">,</span> <span class="s1">&#39;Data Flywheel&#39;</span><span class="p">):</span> <span class="s1">&#39;51/49&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s2">&quot;Rhythm&quot;</span><span class="p">,</span> <span class="s1">&#39;Data Flywheel&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Time&#39;</span><span class="p">,</span> <span class="s1">&#39;Data Flywheel&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Data Flywheel&#39;</span><span class="p">,</span> <span class="s1">&#39;LLM&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Data Flywheel&#39;</span><span class="p">,</span> <span class="s1">&#39;User&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;LLM&#39;</span><span class="p">,</span> <span class="s1">&#39;Action&#39;</span><span class="p">):</span> <span class="s1">&#39;49/51&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;LLM&#39;</span><span class="p">,</span> <span class="s1">&#39;Token&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;LLM&#39;</span><span class="p">,</span> <span class="s1">&#39;Rhythm.&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="s1">&#39;Action&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="s1">&#39;Token&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="s1">&#39;Rhythm.&#39;</span><span class="p">):</span> <span class="s1">&#39;51/49&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Victory&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Payoff&#39;</span><span class="p">):</span> <span class="s1">&#39;85/15&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">):</span> <span class="s1">&#39;90/10&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Time.&#39;</span><span class="p">):</span> <span class="s1">&#39;95/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Action&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;99/1&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;Victory&#39;</span><span class="p">):</span> <span class="s1">&#39;1/9&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;Payoff&#39;</span><span class="p">):</span> <span class="s1">&#39;1/8&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">):</span> <span class="s1">&#39;1/7&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;Time.&#39;</span><span class="p">):</span> <span class="s1">&#39;1/6&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Token&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;1/5&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Rhythm.&#39;</span><span class="p">,</span> <span class="s1">&#39;Victory&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Rhythm.&#39;</span><span class="p">,</span> <span class="s1">&#39;Payoff&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Rhythm.&#39;</span><span class="p">,</span> <span class="s1">&#39;NexToken&#39;</span><span class="p">):</span> <span class="s1">&#39;10/90&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Rhythm.&#39;</span><span class="p">,</span> <span class="s1">&#39;Time.&#39;</span><span class="p">):</span> <span class="s1">&#39;15/85&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Rhythm.&#39;</span><span class="p">,</span> <span class="s1">&#39;Cadence&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span>
+    <span class="p">}</span>
+
+<span class="c1"># Calculate positions for nodes</span>
+<span class="k">def</span> <span class="nf">calculate_positions</span><span class="p">(</span><span class="n">layer</span><span class="p">,</span> <span class="n">x_offset</span><span class="p">):</span>
+    <span class="n">y_positions</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">layer</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">[(</span><span class="n">x_offset</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">y_positions</span><span class="p">]</span>
+
+<span class="c1"># Create and visualize the neural network graph</span>
+<span class="k">def</span> <span class="nf">visualize_nn</span><span class="p">():</span>
+    <span class="n">layers</span> <span class="o">=</span> <span class="n">define_layers</span><span class="p">()</span>
+    <span class="n">colors</span> <span class="o">=</span> <span class="n">assign_colors</span><span class="p">()</span>
+    <span class="n">edges</span> <span class="o">=</span> <span class="n">define_edges</span><span class="p">()</span>
+    <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+    <span class="n">pos</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">node_colors</span> <span class="o">=</span> <span class="p">[]</span>
+    
+    <span class="c1"># Create mapping from original node names to numbered labels</span>
+    <span class="n">mapping</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">layer</span> <span class="ow">in</span> <span class="n">layers</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">layer</span><span class="p">:</span>
+            <span class="n">mapping</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">counter</span><span class="si">}</span><span class="s2">. </span><span class="si">{</span><span class="n">node</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>
+            
+    <span class="c1"># Add nodes with new numbered labels and assign positions</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">layer_name</span><span class="p">,</span> <span class="n">nodes</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">layers</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+        <span class="n">positions</span> <span class="o">=</span> <span class="n">calculate_positions</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">x_offset</span><span class="o">=</span><span class="n">i</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">node</span><span class="p">,</span> <span class="n">position</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">nodes</span><span class="p">,</span> <span class="n">positions</span><span class="p">):</span>
+            <span class="n">new_node</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_node</span><span class="p">(</span><span class="n">new_node</span><span class="p">,</span> <span class="n">layer</span><span class="o">=</span><span class="n">layer_name</span><span class="p">)</span>
+            <span class="n">pos</span><span class="p">[</span><span class="n">new_node</span><span class="p">]</span> <span class="o">=</span> <span class="n">position</span>
+            <span class="n">node_colors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">colors</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="s1">&#39;lightgray&#39;</span><span class="p">))</span>
+    
+    <span class="c1"># Add edges with updated node labels</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">),</span> <span class="n">weight</span> <span class="ow">in</span> <span class="n">edges</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">source</span> <span class="ow">in</span> <span class="n">mapping</span> <span class="ow">and</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">mapping</span><span class="p">:</span>
+            <span class="n">new_source</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">source</span><span class="p">]</span>
+            <span class="n">new_target</span> <span class="o">=</span> <span class="n">mapping</span><span class="p">[</span><span class="n">target</span><span class="p">]</span>
+            <span class="n">G</span><span class="o">.</span><span class="n">add_edge</span><span class="p">(</span><span class="n">new_source</span><span class="p">,</span> <span class="n">new_target</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="n">weight</span><span class="p">)</span>
+    
+    <span class="c1"># Draw the graph</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+    <span class="n">edges_labels</span> <span class="o">=</span> <span class="p">{(</span><span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span> <span class="n">d</span><span class="p">[</span><span class="s2">&quot;weight&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">u</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">G</span><span class="o">.</span><span class="n">edges</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="kc">True</span><span class="p">)}</span>
+    
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span>
+        <span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="n">node_colors</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span>
+        <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
+    <span class="p">)</span>
+    <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edges_labels</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;OPRAH™: EATS-F Model!&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">25</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Run the visualization</span>
+<span class="n">visualize_nn</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</details>
+<div class="cell_output docutils container">
+<img alt="../_images/421d1ec994268f09620061541fa3c3324375ceb99bed6331bd890d8debd3b27b.png" src="../_images/421d1ec994268f09620061541fa3c3324375ceb99bed6331bd890d8debd3b27b.png" />
+</div>
+</div>
+<figure class="align-default" id="id7">
+<a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">For the eyes of the Lord run to and fro throughout the whole earth, to shew himself strong in the behalf of them whose heart is perfect toward him. Herein thou hast done foolishly: therefore from henceforth thou shalt have wars. Source: 2 Chronicles 16: 8-9. The grammar of these visuals is plain: there’s a space &amp; time for the cooperative rhythm, transactional, and adversarial.</span><a class="headerlink" href="#id7" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./act1"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="chapter1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Life ⚓️</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="chapter3.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Resilience 🗡️❤️💰</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-eats-f-variant-a-feast-of-intelligence">🍽️ The EATS-F Variant: A Feast of Intelligence</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">🪙 🎲 🎰 🔍 👁️ 🐍</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ecosystem-the-stage-of-intelligence">🌍 <strong>Ecosystem: The Stage of Intelligence</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">👂🏾</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#alert-the-vigilance-of-g1-g2">🔔 <strong>Alert: The Vigilance of G1, G2</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">🌊 🏄🏾</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#time-the-great-compressor-n2-attention-parallel-processing">‼️ <strong>Time: The Great Compressor (N2 - Attention, Parallel Processing)</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">🗡️ 🪖 🛡️</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#space-the-massive-combinatorial-tree-of-strategy">🌲 <strong>Space: The Massive Combinatorial Tree of Strategy</strong></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">🏇 🧘🏾‍♀️  🔱 🎶 🛌</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#function-the-iterative-struggle-not-eternal-bliss">😃 <strong>Function: The Iterative Struggle (Not Eternal Bliss)</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eats-f-the-digestive-model-of-intelligence">🍽️ <strong>EATS-F: The Digestive Model of Intelligence</strong></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-intelligence-as-an-unfinished-meal">🔄 <strong>Conclusion: Intelligence as an Unfinished Meal</strong></a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  Copyright © 2025 Zeus
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
