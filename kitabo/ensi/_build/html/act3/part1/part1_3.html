@@ -587,14 +587,16 @@ document.write(`
 <section id="step-1-understanding-the-weights">
 <h3>Step 1: Understanding the Weights<a class="headerlink" href="#step-1-understanding-the-weights" title="Permalink to this heading">#</a></h3>
 <p>The weights between Layer 1 (“Suis”) and Layer 2 (“Voir”) are:</p>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\( ('DNA, RNA, 5\%', 'PRR \&amp; ILCs, 20\%') \rightarrow \frac{1}{99} \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\( ('Peptidoglycans, Lipoteichoics', 'PRR \&amp; ILCs, 20\%') \rightarrow \frac{5}{95} \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\( ('Lipopolysaccharide', 'PRR \&amp; ILCs, 20\%') \rightarrow \frac{20}{80} \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\( ('N\text{-}Formylmethionine', 'PRR \&amp; ILCs, 20\%') \rightarrow \frac{51}{49} \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\( ('Glucans, Chitin', 'PRR \&amp; ILCs, 20\%') \rightarrow \frac{80}{20} \)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\( ('Specific Antigens', 'PRR \&amp; ILCs, 20\%') \rightarrow \frac{95}{5} \)</span></p></li>
-</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">weights</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="p">(</span><span class="s1">&#39;DNA, RNA, 5%&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s2">&quot;1/99&quot;</span><span class="p">,</span>  <span class="c1"># → 1/99</span>
+    <span class="p">(</span><span class="s1">&#39;Peptidoglycans, Lipoteichoics&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s2">&quot;5/95&quot;</span><span class="p">,</span>  <span class="c1"># → 5/95</span>
+    <span class="p">(</span><span class="s1">&#39;Lipopolysaccharide&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s2">&quot;20/80&quot;</span><span class="p">,</span>  <span class="c1"># → 20/80</span>
+    <span class="p">(</span><span class="s1">&#39;N-Formylmethionine&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s2">&quot;51/49&quot;</span><span class="p">,</span>  <span class="c1"># → 51/49</span>
+    <span class="p">(</span><span class="s1">&#39;Glucans, Chitin&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s2">&quot;80/20&quot;</span><span class="p">,</span>  <span class="c1"># → 80/20</span>
+    <span class="p">(</span><span class="s1">&#39;Specific Antigens&#39;</span><span class="p">,</span> <span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">):</span> <span class="s2">&quot;95/5&quot;</span>  <span class="c1"># → 95/5</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 <p>In a neural network context, these weights could be interpreted as initial connection strengths. The <code class="docutils literal notranslate"><span class="pre">&quot;X/Y&quot;</span></code> format is unconventional—typically, weights are single scalars. For analysis, I’ll assume <span class="math notranslate nohighlight">\(X/Y\)</span> represents a normalized weight where <span class="math notranslate nohighlight">\(X\)</span> is the numerator of interest, and <span class="math notranslate nohighlight">\(Y\)</span> is a scaling factor.</p>
 </section>
 <section id="step-2-evaluating-suitability-for-an-iterative-algorithm">
