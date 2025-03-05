@@ -512,8 +512,11 @@ document.write(`
 <span class="c1"># Define edges to be highlighted in black</span>
 <span class="k">def</span> <span class="nf">define_black_edges</span><span class="p">():</span>
     <span class="k">return</span> <span class="p">{</span>
-        <span class="p">(</span><span class="s1">&#39;PRR &amp; ILCs, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;CD4+&#39;</span><span class="p">):</span> <span class="s1">&#39;80/20&#39;</span><span class="p">,</span>
-        <span class="p">(</span><span class="s1">&#39;CD4+&#39;</span><span class="p">,</span> <span class="s1">&#39;TNF-α, IL-6, IFN-γ&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Complement System&#39;</span><span class="p">):</span> <span class="s1">&#39;1/99&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Platelet System&#39;</span><span class="p">):</span> <span class="s1">&#39;5/95&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Granulocyte System&#39;</span><span class="p">):</span> <span class="s1">&#39;10/90&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Innate Lymphoid Cells, 5%&#39;</span><span class="p">):</span> <span class="s1">&#39;15/85&#39;</span><span class="p">,</span>
+        <span class="p">(</span><span class="s1">&#39;Tregs, IL-10, TGF-β, 20%&#39;</span><span class="p">,</span> <span class="s1">&#39;Adaptive Lymphoid Cells&#39;</span><span class="p">):</span> <span class="s1">&#39;20/80&#39;</span>
     <span class="p">}</span>
 
 <span class="c1"># Calculate node positions</span>
@@ -567,7 +570,7 @@ document.write(`
         <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">connectionstyle</span><span class="o">=</span><span class="s2">&quot;arc3,rad=0.2&quot;</span>
     <span class="p">)</span>
     <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="o">=</span><span class="n">edges_labels</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;OPRAH™: aAPCs with Salience Pathways Highlighted&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;OPRAH™: aAPCs with Default Mode Network&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># Run the visualization</span>
@@ -577,7 +580,7 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../_images/2a216e1e98387845bdb7e6c5aedcf1316d3fd681526d6a2276805470b1967b76.png" src="../../_images/2a216e1e98387845bdb7e6c5aedcf1316d3fd681526d6a2276805470b1967b76.png" />
+<img alt="../../_images/f05e724dab9632fd458802d4e8b4f8d7a970bda08ecf9b4dfd5a377df64e41fe.png" src="../../_images/f05e724dab9632fd458802d4e8b4f8d7a970bda08ecf9b4dfd5a377df64e41fe.png" />
 </div>
 </div>
 <figure class="align-default" id="id8">
